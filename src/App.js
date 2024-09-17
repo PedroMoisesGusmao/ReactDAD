@@ -10,6 +10,12 @@ function App() {
       <Card title="PREMIUM" premium={true} />
       <Card title="PRO" pro={true} />
     </div>
+    <br></br>
+    <div className={styles.principal}>
+      <Card title="FREE" free={true} vermelho={true} />
+      <Card title="PREMIUM" premium={true} vermelho={true} />
+      <Card title="PRO" pro={true} vermelho={true} />
+    </div>
     </>
   );
 }

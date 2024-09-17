@@ -27,7 +27,7 @@ function Card(props) {
         {preco}
         <p className={styles.per_mouth}>Per month</p>
 
-        <button className={styles.finalizar}>Try now</button>
+        <button className={`${styles.finalizar} ${props.vermelho ? styles.vermelho : styles.verde}`}>Try now</button>
     </div>
     </>
     )

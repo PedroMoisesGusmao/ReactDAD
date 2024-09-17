@@ -26,3 +26,11 @@ h1 {
     font-size: 12px;
     /* margin: 0; */
 }
+
+.finalizar {
+    width: 170px;
+    height: 51px;
+    background-color: #3A4F39;
+    color: white;
+    border: none;
+}
